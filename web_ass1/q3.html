@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="q3.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="heading">Job Application Form</p>
+    <form>
+        <div class="personal_information">
+            <p class="p_head">Personal information</p>
+            <div class="inputs">
+            <label class="pp"> First Name</label>
+            <input type="text" name="first_name" id="first_name">
+            <label class="pp">Last Name</label>
+            <input type="text" name="last_name" id="last_name">
+            <label class="pp">Phone no</label>
+            <input type="number" name="phone" id="phone">
+            <label class="pp">Email</label>
+            <input type="email" name="email" id="email">
+            <label class="pp">Adress</label>
+            <input type="text" name="adress" id="adress">
+            </div>
+        </div>
+
+        <div class="personal_information">
+            <p class="p_head">Resume Details</p>
+            <label class="pp">Upload Resume</label>
+            <input type="file" id="resume" name="filename">
+            <label class="pp">Upload cover letter</label>
+            <input type="file" id="letter" name="filename">
+        </div>
+
+        <div class="personal_information">
+            <p class="p_head">Education Details</p>
+            <div class="inputs">
+            <label class="pp">Highest Education Attained</label>
+            <input type="text" name="h_edu" id="h_edu">
+            <label class="pp">Institution name</label>
+            <input type="text" name="inst_name" id="inst_name">
+            <label class="pp">Major Area of Study</label>
+            <input type="text" name="study" id="study">
+            <label class="pp">Graduation Year</label>
+            <input type="number" name="g_year" id="g_year">
+            </div>
+        </div>
+
+        <div class="personal_information">
+            <p class="p_head">Previous job </p>
+            <div class="inputs">
+            <label class="pp">Company Name</label>
+            <input type="text" name="first_name" id="first_name">
+            <label class="pp">Employment date</label>
+            <input type="date" id="e_date" name="e_date">
+            <label class="pp">Job responsibilities</label>
+            <input type="text">
+            </div>
+        </div>
+
+        <div class="personal_information">
+            <p class="p_head">Skills</p>
+            <div class="inputs">
+                <label class="pp">Skills related to profession</label>
+            <input type="text" name="skill" id="skill">
+            <label class="pp">Upload any Certificate</label>
+            <input type="file" id="letter" name="filename">
+            </div>
+        </div>
+
+        <div class="personal_information">
+            <p class="p_head">References</p>
+            <div class="inputs">
+                <label class="pp">Refernce Name</label>
+            <input type="text" name="r_name" id="r_name">
+            <label class="pp"> Refernce Conact no</label>
+            <input type="number" id="r_no" name="r_no">
+            <label class="pp">Relationship with refernce</label>
+            <input type="text" name="rel_r" id="rel_r">
+            </div>
+        </div>
+        <div class="personal_information">
+            <p class="p_head">Terms and Conditions</p>
+            <li>your appliaction will not be accepted in case of any false information you provided.</li>
+            <input type="checkbox" id="checkbox" name="checkbox" value="check"><br>
+          </div>
+        <button type="submit" id="submit">Submit</button>
+        <button type="submit" class="nd"> <a href="view_application.html"> view application</a></button>
+    </form>
+    <script src="q3.js"></script>
+</body>
+</html>

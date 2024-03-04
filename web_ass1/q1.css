@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    /* border-radius: 50%; */
+}
+
+
+.img{
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+.name1{
+    font-size: 35px;
+    color: rgba(109, 3, 109, 0.637);
+    font-weight: 900;
+}
+.student{
+    font-size:35px;
+    color: gray;
+}
+.name{
+    margin-left: 700px;
+    margin-top: 30px;
+}
+.adress{
+    font-weight: 300;
+}
+.adress-wala{
+    padding: 5px;
+}
+
+.p1{
+    margin-top: 20px;
+    color: rgba(109, 3, 109, 0.637);
+    font-weight: 700;
+    font-size: 40px;
+}
+.text_profile{
+    font-size: 50px;
+}
+.profile{
+    margin-left: 40px;
+}
+
+.line{
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.e1{
+    color: rgba(109, 3, 109, 0.637);
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.part p{
+    display: inline;
+}
+.p2{
+    font-size: large;
+    font-weight:800;
+}
+.education{
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.details{
+    margin-top: 10px;
+}
+.part{
+    padding: 15px;
+}
+.e1{
+    margin-left: 17px;
+}
+
+.school{
+    font-size: 17px;
+}
+
+.sk{
+    font-size: 17px;
+    padding: 4px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills{
+    margin-top: 3px;
+}
+.projects{
+    /* margin-bottom:; */
+    margin-top: 10px;
+}
+
+.education{
+    margin-top: 30px;
+}
+.profile_text{
+    font-size: 17px;
+}
+

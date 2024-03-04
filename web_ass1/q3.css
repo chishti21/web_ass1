@@ -1,0 +1,72 @@
+.inputs{
+    align-items: center;
+    /* padding-left: 100px; */
+}
+input{
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    border: none;
+}
+input[type="checkbox"] {
+    width: 20px;
+}
+body{
+    background-color:#F5F5F5;
+}
+.heading{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold
+}
+.personal_information{
+    margin-left: 50px;
+}
+.p_head{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pp{
+    font-size: 19px;
+}
+
+button{
+    width: 140px;
+    height: 30px;
+    background-color: #c9c0c03f; 
+    border: 1px solid  blue;
+    font-size: 17px;
+    border-radius: 8px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.nd{
+    margin-left: 30px;
+}
+
+
+@media  (max-width: 768px)
+{
+     input{
+        display: block;
+    
+    }
+    .personal_information{
+        margin-left: 200px;
+    }
+
+    button{
+        margin-left: 200px;
+    }
+}
